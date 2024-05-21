@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('forest-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 455px;
+    background-image: linear-gradient(gold, rgb(242, 245, 222), gold, rgb(242, 245, 222), gold, rgb(242, 245, 222), gold);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(48, 44, 44);
+}
+
+.background {
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+img {
+    height: 90%;
+    width: 90%;
+    text-align: center;
+}
+
+.squirtle {
+    background-image: linear-gradient(blue, cyan);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.pikachu {
+    background-image: linear-gradient(rgb(202, 202, 50), rgb(148, 134, 54));
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.slowpoke {
+    background-image: linear-gradient(pink, rgb(144, 19, 141));
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.butterfree {
+    background-image: linear-gradient(rgb(164, 5, 244), rgb(144, 146, 44));
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.charmander {
+    background-image: linear-gradient(orange, rgb(111, 36, 36));
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.eevee {
+    background-image: linear-gradient(rgb(102, 17, 17), rgb(244, 166, 111));
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.name {
+    background-image: linear-gradient(to right, rgb(203, 196, 106), rgb(249, 222, 67), rgb(203, 196, 106));
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 2px 3px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.type {
+    margin-top: 10px;
+    width: 50px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+}
+
+.water {
+    background-color: rgb(31, 156, 234);
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.grass {
+    background-color: green;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.electric {
+    background-color: gold;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.psychic {
+    background-color: maroon;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.bug {
+    background-color: yellowgreen;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.fire {
+    background-color: red;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.normal {
+    background-color: grey;
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.flying {
+    background-color: rgb(107, 107, 241);
+    padding: 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.desc {
+    padding: 7px;
+    height: 135px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.buttons {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.add {
+    background-color: #d9af19;
+    color: white;
+    border-radius: 7px;
+    padding: 3px 3px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.release {
+    background-color: chocolate;
+    color: white;
+    border-radius: 7px;
+    padding: 3px 3px;
+    box-shadow: 2px 2px black;
+}
