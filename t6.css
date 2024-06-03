@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-    width: 60vw;
+    width: 75vw;
+    height: auto;
     margin: 50px auto;
     display: grid;
     gap: 8px;
@@ -20,6 +21,7 @@ body {
 }
 
 .character {
+
     display: flex;
     border: 3px solid maroon;
     box-shadow: 2px 2px grey;
