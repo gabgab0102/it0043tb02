@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="box-control">
+
+            <div class="flexgap">
+                <div class="flextitle">
+                    <p class="ftitle">Flexbox Simulator</p>
+                </div>
+
+                <div class="reset-box">
+                    <button class="reset-flexbox" onclick="resetflexbox()">Reset Flexbox</button>
+
+                    <button class="gap-button" onclick="GapButton()">Gap</button>
+                    <input type="number" name="" id="gap-counter" value="0" disabled>
+                </div>
+
+
+            </div>
+            <div class="flex-direction">
+                <p class="desc">Flex Direction</p>
+                <div class="direction">
+                    <button class="row" onclick="Row()">Row</button>
+                    <button class="column" onclick="Column()">Column</button>
+                </div>
+            </div>
+
+            <div class="justify-content">
+                <p class="desc">Justify Content</p>
+                <div class="justifycontent">
+                    <button class="start1" onclick="justifystart()">Start</button>
+                    <button class="center1" onclick="justifycenter()">Center</button>
+                    <button class="end1" onclick="justifyend()">End</button>
+                    <button class="spacebetween" onclick="justifybetween()">Space Between</button>
+                    <button class="spacearound" onclick="justifyaround()">Space Around</button>
+                    <button class="spaceevenly" onclick="justifyevenly()">Space Evenly</button>
+                </div>
+            </div>
+            <div class="align-items">
+                <p class="desc">Align Items</p>
+                <div class="alignitems">
+                    <button class="start2" onclick="alignstart()">Start</button>
+                    <button class="center2" onclick="aligncenter()">Center</button>
+                    <button class="end2" onclick="alignend()">End</button>
+                </div>
+            </div>
+            <div class="flex-grow">
+                <p class="desc">Flex Grow</p>
+                <div class="flexgrow">
+                    <button class="reset" onclick="growreset()">Reset</button>
+                    <button class="grow" onclick="growall()">Grow All</button>
+                </div>
+                <div class="flexgrow-boxes">
+                    <button class="one" onclick="box1()">Box 1</button>
+                    <input type="number" name="" id="growcounter1" value="0" disabled>
+                    <button class="two" onclick="box2()">Box 2</button>
+                    <input type="number" name="" id="growcounter2" value="0" disabled>
+                    <button class="three" onclick="box3()">Box 3</button>
+                    <input type="number" name="" id="growcounter3" value="0" disabled>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex-display">
+            <div class="box" id="box-one"></div>
+            <div class="box" id="box-two"></div>
+            <div class="box" id="box-three"></div>
+        </div>
+
+    </div>
+    <script src="flexbox.js"></script>
+</body>
+
+</html>
