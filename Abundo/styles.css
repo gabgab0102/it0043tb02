@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #dfe3ee;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.logo {
+grid-column:1/4;
+grid-row: 3/4;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+
+p {
+    font-size: 24px;
+}
+}
+
+.details {
+    grid-row: 2/5;
+    grid-column: 4/5;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 325px;
+    height: 400px;
+    box-shadow: 1px 1px 1px 2px;
+    margin: 100px;
+}
+.email, .password, .submit, .forgot, .create1 {
+    padding: 5px;
+    margin: 0;
+}
+
+
+
+
+.password {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 50px;
+}
+.facebook {
+    color: #1877F2;
+    font-size: 48px; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+#email, #password {
+height: 45px;
+width: 250px;
+}
+.forgot {
+    text-align: center;
+}
+/* CSS */
+.button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+
+
+/* CSS */
+.create2 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: green;
+  border: 1px solid transparent;
+  border-radius: .50rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+.note {
+grid-row: 5/5;
+grid-column: 4/5;
+
+}
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
